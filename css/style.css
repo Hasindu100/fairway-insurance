@@ -469,3 +469,16 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+.reason-list {
+    li::marker {
+        font-size: 22px;
+    }
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 70%;
+    }
+}
